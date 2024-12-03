@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar e Rodar",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "main.c",
+        "matriz.c",
+        "-o",
+        "teste.exe",
+        "\n./teste.exe",
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Compilando o programa"
+    },
+  ]
+}
